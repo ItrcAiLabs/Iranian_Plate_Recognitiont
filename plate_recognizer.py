@@ -63,11 +63,3 @@ class PlateRecognizer:
         # Return None if no plate is detected
         return None, None
 
-# Initialize and test the model
-model = PlateRecognizer()
-plate_number, bbox = model.recognize_plate("car2.jpg")
-
-if plate_number:
-    print(f"Plate recognized: {plate_number}, Bounding box: {bbox}")
-else:
-    print("No plate detected.")
