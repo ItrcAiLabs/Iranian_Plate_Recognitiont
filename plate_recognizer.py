@@ -5,9 +5,7 @@ from ultralytics import YOLO
 import torch
 import os
 
-# Check if the model paths exist
-print(os.path.exists(get_path_model_object()))
-print(os.path.exists(get_path_model_char()))
+
 
 class PlateRecognizer:
     def __init__(self, conf_threshold: float = 0.4) -> None:
