@@ -61,3 +61,4 @@ class PlateRecognizer:
         # Return None if no plate is detected
         return None, None
 
+
